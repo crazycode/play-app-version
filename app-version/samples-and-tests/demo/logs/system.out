@@ -1,0 +1,14 @@
+Listening for transport dt_socket at address: 8000
+17:51:24,783 INFO  ~ Starting /home/tanglq/seewi/play-modules/play-app-version/app-version/samples-and-tests/demo
+17:51:24,785 WARN  ~ Declaring modules in application.conf is deprecated. Use dependencies.yml instead (module.appversion)
+17:51:24,786 INFO  ~ Module appversion is available (/home/tanglq/seewi/play-modules/play-app-version/app-version/samples-and-tests/demo/../../../app-version)
+17:51:25,162 WARN  ~ You're running Play! in DEV mode
+~
+~ Go to http://localhost:9000/@tests to run the tests
+~
+17:51:25,207 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+17:51:25,365 ERROR ~ Cannot include routes for module app-version (not found)
+17:51:26,184 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0
+17:51:26,195 INFO  ~ Application 'play-app-version-demo' is now started !
+17:51:26,195 INFO  ~ conf/version.conf exists.
+@KILLED
