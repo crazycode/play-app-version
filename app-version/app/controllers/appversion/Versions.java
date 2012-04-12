@@ -11,7 +11,7 @@ public class Versions extends Controller {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         sb.append(AppVersion.name).append(" ").append(AppVersion.value)
             .append("\n").append("revision:").append(AppVersion.revision)
-            .append("\n").append("Build At:").append(sdf.format(AppVersion.buildAt))
+            .append("\n").append("BuildAt:").append(sdf.format(AppVersion.buildAt))
             .append("\n").append("StartUp:").append(sdf.format(AppVersion.startupAt));
         renderText(sb.toString());
     }
