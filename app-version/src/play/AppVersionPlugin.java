@@ -39,7 +39,7 @@ public class AppVersionPlugin extends PlayPlugin {
     private Date parseDate(String string) {
         Date date = null;
         try {
-            if (StringUtils.isEmpty(string)) {
+            if (!StringUtils.isEmpty(string)) {
                 date = simpleDateFormat.parse(string);
             } else {
                 date = simpleDateFormat.parse("2012-01-01 12:00:00");
