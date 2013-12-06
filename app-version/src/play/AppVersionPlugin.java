@@ -53,8 +53,8 @@ public class AppVersionPlugin extends PlayPlugin {
 
     @Override
     public void onRoutesLoaded() {
-        Logger.debug("adding routes /@appversion for AppVersion");
-        Router.addRoute("GET", "/@appversion", "appversion.Versions.index");
+        Logger.debug("adding routes /config/@appversion for AppVersion");
+        Router.addRoute("GET", "/config/@appversion", "appversion.Versions.index");
     }
 
 }

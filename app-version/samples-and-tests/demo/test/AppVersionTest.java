@@ -16,7 +16,7 @@ public class AppVersionTest extends FunctionalTest {
  
     @Test
     public void testVersionPage() {
-        Response response = GET("/@appversion");
+        Response response = GET("/config/@appversion");
         assertContentMatch("play-app-version-demo", response);
     }
 
